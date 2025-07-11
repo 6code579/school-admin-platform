@@ -7,7 +7,7 @@ from .serializers import StudentSerializer
 
 class StudentViewSet(viewsets.ModelViewSet):
     """
-    ViewSet pour gérer les étudiants.
+    ViewSet to manage students.
     Fournit les opérations CRUD complètes.
     """
     queryset = Student.objects.all()
